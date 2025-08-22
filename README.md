@@ -36,13 +36,13 @@ It fetches real-time stock data using the **Finnhub API** and displays it in a c
    cd stock-market-dashboard
 
 2. Install dependencies
-
+   ```bash
     npm install
 
 3. Create a .env file and add your Finnhub token
-
+   ```bash
     VITE_STOCK_MARKET_API=your_token_here
 
 4. Run the development server
-
+   ```bash
     npm run dev
